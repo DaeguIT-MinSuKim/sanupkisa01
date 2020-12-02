@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	height: 80px;
+	background: #09F;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* navi */
+nav {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #06F;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	padding: 0 40px;
+	color: #fff;
+	font-size: 17px;
+	transition: 0.3s;
+}
+
+nav a:hover {
+	background: #09F;
+}
+
+/* content */
+section {
+	background: #f5f5f5;
+	padding: 50px;
+}
+
+section article {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 13px;
+}
+
+section article h2 {
+	background: #f5f5f5;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section article table {
+	background: #f5f5f5;
+	border-top: 2px solid #666;
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	text-align: center;
+}
+
+section article  td, section article  th {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+}
+
+section article  th {
+	background: #f5f5f5;
+}
+
+section article input{
+	text-align: left;
+}
+
+section article input[type="text"] {
+	height: 30px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+}
+
+/* footer */
+footer {
+	background: #f5f5f5;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.btn_group {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btn_group button {
+	width: 80px;
+	height: 30px;
+	border: none;
+	background: #444;
+	color: #fff;
+}
